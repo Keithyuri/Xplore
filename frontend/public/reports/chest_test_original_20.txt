@@ -1,0 +1,162 @@
+=== RAW ===
+PACEMAN TECHNICAL EVALUATION – CHEST RADIOGRAPH (Image 20)
+
+POSITION
+
+Rotation
+Mild rotation is present, likely toward the left, with slight asymmetry of the clavicle–spinous process relationship. Lung fields remain adequately assessable.
+
+Shoulder Position / Tension
+Shoulders appear adequately relaxed with acceptable depression. Clavicles project at an appropriate level relative to the apices, allowing satisfactory apical assessment.
+
+Tilt
+No significant tilt is seen. The clavicles are broadly symmetrical in vertical height and the spinous processes remain near midline.
+
+Lordotic or Kyphotic Positioning
+No marked lordotic or kyphotic positioning is demonstrated. Clavicles project just below the lung apices and rib angulation is acceptable for an erect chest radiograph.
+
+Inspiration
+Inspiration is acceptable though not as deep as the best examples, with roughly 8–9 posterior ribs visible.
+
+Scapulae Positioning
+Scapulae are largely projected outside the lung fields with no major overlap that would limit lung assessment.
+
+AREA COVERAGE
+Lung apices and both costophrenic angles are included. Lateral lung margins are visualised and anatomical coverage is essentially complete.
+
+CENTERING
+
+Mid-Sagittal Plane Alignment
+Patient is centred with no meaningful lateral shift.
+
+Central Ray Position
+Beam appears centred near T7/inferior angle of scapula. No practical centering correction is required.
+
+COLLIMATION
+Collimation is acceptable but slightly more generous inferiorly than ideal. Superior, inferior and lateral coverage are present. A slightly tighter lower field would reduce unnecessary dose and scatter without compromising anatomy.
+
+EXPOSURE
+
+Density
+Exposure appears appropriate.
+
+Quantum Mottling
+Quantum mottle is absent.
+
+Vertebral Body Visibility Through Cardiac Shadow
+Penetration is adequate, with faint vertebral visibility through the cardiac shadow.
+
+Lung Markings to Periphery
+Lung markings remain visible to the periphery.
+
+Exposure Index / Dose Index
+Exposure index / dose index is not visible on the provided image and is therefore unavailable.
+
+MARKER
+A side marker is present and placed outside the key thoracic anatomy without obscuring the lungs.
+
+ARTEFACTS
+
+Motion
+Cortical margins are sharp and no appreciable motion blur is identified.
+
+External Artefacts
+A prominent belt/clothing artefact projects over the upper abdomen/lower image field. It does not substantially obscure the lungs but is an avoidable artefact.
+
+Internal Artefacts
+No chest internal devices are identified.
+
+PATIENT IDENTIFICATION
+Patient name, identification number and accession number are not visible on the provided image. Any visible initials/letters should not be assumed to be patient identifiers.
+
+POSITIONING ERRORS
+Mild leftward rotation with avoidable lower-field clothing artefact. Severity is mild. Clinical impact is limited because the lungs remain visible and the image is still diagnostic.
+
+PRACTICAL RADIOGRAPHER-LEVEL CORRECTIONS (SUMMARY)
+Remove belt/clothing artefacts before exposure, re-square the patient slightly, and tighten inferior collimation while preserving the costophrenic angles.
+
+STRENGTHS AND WEAKNESSES
+Strengths
+Good positioning, adequate inspiration, complete coverage, acceptable centering, appropriate collimation and satisfactory exposure.
+
+Weaknesses
+Minor rotation and avoidable belt/clothing artefact in the lower field.
+
+FINAL CONCLUSION
+The image is clinically diagnostic and acceptable, although it could be improved by artefact removal and slightly better positioning.
+
+=== TECHNICAL ===
+
+# POSITION
+## Rotation
+Mild rotation is present, likely toward the left, with slight asymmetry of the clavicle–spinous process relationship. Lung fields remain adequately assessable.
+## Shoulder Position / Tension
+Shoulders appear adequately relaxed with acceptable depression. Clavicles project at an appropriate level relative to the apices, allowing satisfactory apical assessment.
+## Tilt
+No significant tilt is seen. The clavicles are broadly symmetrical in vertical height and the spinous processes remain near midline.
+## Lordotic or Kyphotic Positioning
+No marked lordotic or kyphotic positioning is demonstrated. Clavicles project just below the lung apices and rib angulation is acceptable for an erect chest radiograph.
+## Inspiration
+Inspiration is acceptable though not as deep as the best examples, with roughly 8–9 posterior ribs visible.
+## Scapulae Positioning
+Scapulae are largely projected outside the lung fields with no major overlap that would limit lung assessment.
+
+# AREA COVERAGE
+## Coverage Assessment
+Lung apices and both costophrenic angles are included. Lateral lung margins are visualised and anatomical coverage is essentially complete.
+
+# CENTERING
+## Mid-Sagittal Plane Alignment
+Patient is centred with no meaningful lateral shift.
+## Central Ray Position
+Beam appears centred near T7/inferior angle of scapula. No practical centering correction is required.
+
+# COLLIMATION
+## Field Restriction
+Collimation is acceptable but slightly more generous inferiorly than ideal. Superior, inferior and lateral coverage are present. A slightly tighter lower field would reduce unnecessary dose and scatter without compromising anatomy.
+
+# EXPOSURE
+## Density
+Exposure appears appropriate.
+## Quantum Mottling
+Quantum mottle is absent.
+## Vertebral Body Visibility Through Cardiac Shadow
+Penetration is adequate, with faint vertebral visibility through the cardiac shadow.
+## Lung Markings to Periphery
+Lung markings remain visible to the periphery.
+## Exposure Index / Dose Index
+Exposure index / dose index is not visible on the provided image and is therefore unavailable.
+
+# MARKER
+## Marker Assessment
+A side marker is present and placed outside the key thoracic anatomy without obscuring the lungs.
+
+# ARTEFACTS
+## Motion
+Cortical margins are sharp and no appreciable motion blur is identified.
+## External Artefacts
+A prominent belt/clothing artefact projects over the upper abdomen/lower image field. It does not substantially obscure the lungs but is an avoidable artefact.
+## Internal Artefacts
+No chest internal devices are identified.
+
+# PATIENT IDENTIFICATION
+## Identification Assessment
+Patient name, identification number and accession number are not visible on the provided image. Any visible initials/letters should not be assumed to be patient identifiers.
+
+# POSITIONING ERRORS
+## Error Summary
+Mild leftward rotation with avoidable lower-field clothing artefact. Severity is mild. Clinical impact is limited because the lungs remain visible and the image is still diagnostic.
+
+# PRACTICAL CORRECTIONS
+## Recommendations
+Remove belt/clothing artefacts before exposure, re-square the patient slightly, and tighten inferior collimation while preserving the costophrenic angles.
+
+# STRENGTHS AND WEAKNESSES
+## Strengths
+Good positioning, adequate inspiration, complete coverage, acceptable centering, appropriate collimation and satisfactory exposure.
+## Weaknesses
+Minor rotation and avoidable belt/clothing artefact in the lower field.
+
+# FINAL CONCLUSION
+## Overall Assessment
+The image is clinically diagnostic and acceptable, although it could be improved by artefact removal and slightly better positioning.

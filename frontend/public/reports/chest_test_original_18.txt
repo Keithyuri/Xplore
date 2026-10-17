@@ -1,0 +1,162 @@
+=== RAW ===
+PACEMAN TECHNICAL EVALUATION – CHEST RADIOGRAPH (Image 18)
+
+POSITION
+
+Rotation
+No significant rotation is seen. The thorax is well aligned.
+
+Shoulder Position / Tension
+Shoulders appear adequately relaxed with acceptable depression. Clavicles project at an appropriate level relative to the apices, allowing satisfactory apical assessment.
+
+Tilt
+No significant tilt is seen. The clavicles are broadly symmetrical in vertical height and the spinous processes remain near midline.
+
+Lordotic or Kyphotic Positioning
+No marked lordotic or kyphotic positioning is demonstrated. Clavicles project just below the lung apices and rib angulation is acceptable for an erect chest radiograph.
+
+Inspiration
+Inspiration is adequate, with approximately 9–10 posterior ribs visible and the diaphragms lying at an acceptable level.
+
+Scapulae Positioning
+Scapulae are largely projected outside the lung fields with no major overlap that would limit lung assessment.
+
+AREA COVERAGE
+Lung apices and both costophrenic angles are included. Lateral lung margins are visualised and anatomical coverage is essentially complete.
+
+CENTERING
+
+Mid-Sagittal Plane Alignment
+Patient is centred with no meaningful lateral shift.
+
+Central Ray Position
+Beam appears centred near T7/inferior angle of scapula. No practical centering correction is required.
+
+COLLIMATION
+This is effectively 4-sided collimation. Superior, inferior, right and left borders are reasonably demonstrated, including superior collimation. Collimation is appropriate rather than excessive or inadequate, helping reduce unnecessary dose and scatter. Maintain the current field size.
+
+EXPOSURE
+
+Density
+Exposure appears appropriate.
+
+Quantum Mottling
+Quantum mottle is absent.
+
+Vertebral Body Visibility Through Cardiac Shadow
+Penetration is adequate, with faint vertebral visibility through the cardiac shadow.
+
+Lung Markings to Periphery
+Lung markings remain visible to the periphery.
+
+Exposure Index / Dose Index
+Exposure index / dose index is not visible on the provided image and is therefore unavailable.
+
+MARKER
+A side marker is present and placed outside the key thoracic anatomy without obscuring the lungs.
+
+ARTEFACTS
+
+Motion
+Cortical margins are sharp and no appreciable motion blur is identified.
+
+External Artefacts
+No significant external artefact projects over the lungs.
+
+Internal Artefacts
+No chest internal devices are identified.
+
+PATIENT IDENTIFICATION
+Patient name, identification number and accession number are not visible on the provided image. Any visible initials/letters should not be assumed to be patient identifiers.
+
+POSITIONING ERRORS
+No major positioning error is identified. Severity is minimal and there is no meaningful technical impact on diagnostic acceptability.
+
+PRACTICAL RADIOGRAPHER-LEVEL CORRECTIONS (SUMMARY)
+No major correction is needed. Continue with relaxed shoulders, midline centering, T7 centering, full inspiration and tight but complete collimation.
+
+STRENGTHS AND WEAKNESSES
+Strengths
+Good inspiratory effort, neat centering and technically clean appearance.
+
+Weaknesses
+No major technical weakness is identified aside from absent visible patient identification on the displayed image.
+
+FINAL CONCLUSION
+This image is clinically diagnostic and technically acceptable based on visual PACEMAN assessment.
+
+=== TECHNICAL ===
+
+# POSITION
+## Rotation
+No significant rotation is seen. The thorax is well aligned.
+## Shoulder Position / Tension
+Shoulders appear adequately relaxed with acceptable depression. Clavicles project at an appropriate level relative to the apices, allowing satisfactory apical assessment.
+## Tilt
+No significant tilt is seen. The clavicles are broadly symmetrical in vertical height and the spinous processes remain near midline.
+## Lordotic or Kyphotic Positioning
+No marked lordotic or kyphotic positioning is demonstrated. Clavicles project just below the lung apices and rib angulation is acceptable for an erect chest radiograph.
+## Inspiration
+Inspiration is adequate, with approximately 9–10 posterior ribs visible and the diaphragms lying at an acceptable level.
+## Scapulae Positioning
+Scapulae are largely projected outside the lung fields with no major overlap that would limit lung assessment.
+
+# AREA COVERAGE
+## Coverage Assessment
+Lung apices and both costophrenic angles are included. Lateral lung margins are visualised and anatomical coverage is essentially complete.
+
+# CENTERING
+## Mid-Sagittal Plane Alignment
+Patient is centred with no meaningful lateral shift.
+## Central Ray Position
+Beam appears centred near T7/inferior angle of scapula. No practical centering correction is required.
+
+# COLLIMATION
+## Field Restriction
+This is effectively 4-sided collimation. Superior, inferior, right and left borders are reasonably demonstrated, including superior collimation. Collimation is appropriate rather than excessive or inadequate, helping reduce unnecessary dose and scatter. Maintain the current field size.
+
+# EXPOSURE
+## Density
+Exposure appears appropriate.
+## Quantum Mottling
+Quantum mottle is absent.
+## Vertebral Body Visibility Through Cardiac Shadow
+Penetration is adequate, with faint vertebral visibility through the cardiac shadow.
+## Lung Markings to Periphery
+Lung markings remain visible to the periphery.
+## Exposure Index / Dose Index
+Exposure index / dose index is not visible on the provided image and is therefore unavailable.
+
+# MARKER
+## Marker Assessment
+A side marker is present and placed outside the key thoracic anatomy without obscuring the lungs.
+
+# ARTEFACTS
+## Motion
+Cortical margins are sharp and no appreciable motion blur is identified.
+## External Artefacts
+No significant external artefact projects over the lungs.
+## Internal Artefacts
+No chest internal devices are identified.
+
+# PATIENT IDENTIFICATION
+## Identification Assessment
+Patient name, identification number and accession number are not visible on the provided image. Any visible initials/letters should not be assumed to be patient identifiers.
+
+# POSITIONING ERRORS
+## Error Summary
+No major positioning error is identified. Severity is minimal and there is no meaningful technical impact on diagnostic acceptability.
+
+# PRACTICAL CORRECTIONS
+## Recommendations
+No major correction is needed. Continue with relaxed shoulders, midline centering, T7 centering, full inspiration and tight but complete collimation.
+
+# STRENGTHS AND WEAKNESSES
+## Strengths
+Good inspiratory effort, neat centering and technically clean appearance.
+## Weaknesses
+No major technical weakness is identified aside from absent visible patient identification on the displayed image.
+
+# FINAL CONCLUSION
+## Overall Assessment
+This image is clinically diagnostic and technically acceptable based on visual PACEMAN assessment.

@@ -1,0 +1,301 @@
+======================================================================
+XPLORE - SEPARATE BINARY SEGMENTATION TRAINING
+======================================================================
+Training started: 2026-10-17 14:47:36
+PyTorch version: 2.14.1+cpu
+Device: cpu
+Epochs: 100
+Learning rate: 0.0001
+Early stopping patience: 30
+Random seed: 42
+Target image size: (512, 512)
+Dataset path: C:\Users\Keith Chin\Radiography Project\backend\tests\dataset
+Images path: C:\Users\Keith Chin\Radiography Project\backend\tests\dataset\images\png
+Masks path: C:\Users\Keith Chin\Radiography Project\backend\tests\dataset\masks\fixed_png
+Classes: {'spinous': 255, 'costo': 192, 'blunted': 64}
+Class loss weights: {'spinous': 1.0, 'costo': 1.0, 'blunted': 3.0}
+Class thresholds: {'spinous': 0.3, 'costo': 0.5, 'blunted': 0.5}
+Log file: C:\Users\Keith Chin\Radiography Project\backend\tests\separate_binary_training_results\training_log_20261017_144736_742736.txt
+======================================================================
+
+======================================================================
+DATASET SUMMARY
+======================================================================
+Total images: 100
+Training images: 80
+Validation images: 20
+All image-mask pairs verified.
+======================================================================
+
+======================================================================
+TRAINING: SPINOUS (Mask value: 255, Threshold: 0.3)
+======================================================================
+[spinous] Epoch 001/100 | Train Loss: 1.6421 | Val Soft Dice: 0.0084 | Val Binary Dice (0.3): 0.0091 | Time: 0m 30s
+Saved best spinous model | Epoch: 1 | Binary Dice (0.3): 0.0091 | Soft Dice: 0.0084 | Path: separate_binary_training_results\best_spinous_model.pth
+[spinous] Epoch 002/100 | Train Loss: 1.3410 | Val Soft Dice: 0.0124 | Val Binary Dice (0.3): 0.0504 | Time: 0m 30s
+Saved best spinous model | Epoch: 2 | Binary Dice (0.3): 0.0504 | Soft Dice: 0.0124 | Path: separate_binary_training_results\best_spinous_model.pth
+[spinous] Epoch 003/100 | Train Loss: 1.2137 | Val Soft Dice: 0.0165 | Val Binary Dice (0.3): 0.0944 | Time: 0m 30s
+Saved best spinous model | Epoch: 3 | Binary Dice (0.3): 0.0944 | Soft Dice: 0.0165 | Path: separate_binary_training_results\best_spinous_model.pth
+[spinous] Epoch 004/100 | Train Loss: 1.1448 | Val Soft Dice: 0.0280 | Val Binary Dice (0.3): 0.1699 | Time: 0m 33s
+Saved best spinous model | Epoch: 4 | Binary Dice (0.3): 0.1699 | Soft Dice: 0.0280 | Path: separate_binary_training_results\best_spinous_model.pth
+[spinous] Epoch 005/100 | Train Loss: 1.0831 | Val Soft Dice: 0.0565 | Val Binary Dice (0.3): 0.2252 | Time: 0m 35s
+Saved best spinous model | Epoch: 5 | Binary Dice (0.3): 0.2252 | Soft Dice: 0.0565 | Path: separate_binary_training_results\best_spinous_model.pth
+[spinous] Epoch 006/100 | Train Loss: 1.0241 | Val Soft Dice: 0.0734 | Val Binary Dice (0.3): 0.2957 | Time: 0m 35s
+Saved best spinous model | Epoch: 6 | Binary Dice (0.3): 0.2957 | Soft Dice: 0.0734 | Path: separate_binary_training_results\best_spinous_model.pth
+[spinous] Epoch 007/100 | Train Loss: 0.9722 | Val Soft Dice: 0.0885 | Val Binary Dice (0.3): 0.3017 | Time: 0m 34s
+Saved best spinous model | Epoch: 7 | Binary Dice (0.3): 0.3017 | Soft Dice: 0.0885 | Path: separate_binary_training_results\best_spinous_model.pth
+[spinous] Epoch 008/100 | Train Loss: 0.9196 | Val Soft Dice: 0.1158 | Val Binary Dice (0.3): 0.3379 | Time: 0m 33s
+Saved best spinous model | Epoch: 8 | Binary Dice (0.3): 0.3379 | Soft Dice: 0.1158 | Path: separate_binary_training_results\best_spinous_model.pth
+[spinous] Epoch 009/100 | Train Loss: 0.8638 | Val Soft Dice: 0.1516 | Val Binary Dice (0.3): 0.3552 | Time: 0m 33s
+Saved best spinous model | Epoch: 9 | Binary Dice (0.3): 0.3552 | Soft Dice: 0.1516 | Path: separate_binary_training_results\best_spinous_model.pth
+[spinous] Epoch 010/100 | Train Loss: 0.7969 | Val Soft Dice: 0.1977 | Val Binary Dice (0.3): 0.4333 | Time: 0m 33s
+Saved best spinous model | Epoch: 10 | Binary Dice (0.3): 0.4333 | Soft Dice: 0.1977 | Path: separate_binary_training_results\best_spinous_model.pth
+[spinous] Epoch 011/100 | Train Loss: 0.7283 | Val Soft Dice: 0.2552 | Val Binary Dice (0.3): 0.4875 | Time: 0m 34s
+Saved best spinous model | Epoch: 11 | Binary Dice (0.3): 0.4875 | Soft Dice: 0.2552 | Path: separate_binary_training_results\best_spinous_model.pth
+[spinous] Epoch 012/100 | Train Loss: 0.6591 | Val Soft Dice: 0.3040 | Val Binary Dice (0.3): 0.4369 | Time: 0m 35s
+[spinous] Epoch 013/100 | Train Loss: 0.5895 | Val Soft Dice: 0.3626 | Val Binary Dice (0.3): 0.4944 | Time: 0m 36s
+Saved best spinous model | Epoch: 13 | Binary Dice (0.3): 0.4944 | Soft Dice: 0.3626 | Path: separate_binary_training_results\best_spinous_model.pth
+[spinous] Epoch 014/100 | Train Loss: 0.5190 | Val Soft Dice: 0.4059 | Val Binary Dice (0.3): 0.5202 | Time: 0m 35s
+Saved best spinous model | Epoch: 14 | Binary Dice (0.3): 0.5202 | Soft Dice: 0.4059 | Path: separate_binary_training_results\best_spinous_model.pth
+[spinous] Epoch 015/100 | Train Loss: 0.4778 | Val Soft Dice: 0.4700 | Val Binary Dice (0.3): 0.5746 | Time: 0m 35s
+Saved best spinous model | Epoch: 15 | Binary Dice (0.3): 0.5746 | Soft Dice: 0.4700 | Path: separate_binary_training_results\best_spinous_model.pth
+[spinous] Epoch 016/100 | Train Loss: 0.4387 | Val Soft Dice: 0.4860 | Val Binary Dice (0.3): 0.5692 | Time: 0m 35s
+[spinous] Epoch 017/100 | Train Loss: 0.4140 | Val Soft Dice: 0.4917 | Val Binary Dice (0.3): 0.5627 | Time: 0m 35s
+[spinous] Epoch 018/100 | Train Loss: 0.4012 | Val Soft Dice: 0.5158 | Val Binary Dice (0.3): 0.5652 | Time: 0m 34s
+[spinous] Epoch 019/100 | Train Loss: 0.3869 | Val Soft Dice: 0.5192 | Val Binary Dice (0.3): 0.5611 | Time: 0m 36s
+[spinous] Epoch 020/100 | Train Loss: 0.3741 | Val Soft Dice: 0.5422 | Val Binary Dice (0.3): 0.5912 | Time: 0m 35s
+Saved best spinous model | Epoch: 20 | Binary Dice (0.3): 0.5912 | Soft Dice: 0.5422 | Path: separate_binary_training_results\best_spinous_model.pth
+[spinous] Epoch 021/100 | Train Loss: 0.3518 | Val Soft Dice: 0.5447 | Val Binary Dice (0.3): 0.5843 | Time: 0m 36s
+[spinous] Epoch 022/100 | Train Loss: 0.3505 | Val Soft Dice: 0.5390 | Val Binary Dice (0.3): 0.5698 | Time: 0m 36s
+[spinous] Epoch 023/100 | Train Loss: 0.3284 | Val Soft Dice: 0.5580 | Val Binary Dice (0.3): 0.5812 | Time: 0m 34s
+[spinous] Epoch 024/100 | Train Loss: 0.3362 | Val Soft Dice: 0.5626 | Val Binary Dice (0.3): 0.5839 | Time: 0m 34s
+[spinous] Epoch 025/100 | Train Loss: 0.3154 | Val Soft Dice: 0.5689 | Val Binary Dice (0.3): 0.5913 | Time: 0m 36s
+Saved best spinous model | Epoch: 25 | Binary Dice (0.3): 0.5913 | Soft Dice: 0.5689 | Path: separate_binary_training_results\best_spinous_model.pth
+[spinous] Epoch 026/100 | Train Loss: 0.3006 | Val Soft Dice: 0.5445 | Val Binary Dice (0.3): 0.5676 | Time: 0m 31s
+[spinous] Epoch 027/100 | Train Loss: 0.3076 | Val Soft Dice: 0.5674 | Val Binary Dice (0.3): 0.5863 | Time: 0m 30s
+[spinous] Epoch 028/100 | Train Loss: 0.2940 | Val Soft Dice: 0.5850 | Val Binary Dice (0.3): 0.5977 | Time: 0m 31s
+Saved best spinous model | Epoch: 28 | Binary Dice (0.3): 0.5977 | Soft Dice: 0.5850 | Path: separate_binary_training_results\best_spinous_model.pth
+[spinous] Epoch 029/100 | Train Loss: 0.2909 | Val Soft Dice: 0.5727 | Val Binary Dice (0.3): 0.5867 | Time: 0m 37s
+[spinous] Epoch 030/100 | Train Loss: 0.2740 | Val Soft Dice: 0.5859 | Val Binary Dice (0.3): 0.5969 | Time: 0m 35s
+[spinous] Epoch 031/100 | Train Loss: 0.2652 | Val Soft Dice: 0.5694 | Val Binary Dice (0.3): 0.5807 | Time: 0m 35s
+[spinous] Epoch 032/100 | Train Loss: 0.2648 | Val Soft Dice: 0.5737 | Val Binary Dice (0.3): 0.5875 | Time: 0m 34s
+[spinous] Epoch 033/100 | Train Loss: 0.2604 | Val Soft Dice: 0.5939 | Val Binary Dice (0.3): 0.6062 | Time: 0m 33s
+Saved best spinous model | Epoch: 33 | Binary Dice (0.3): 0.6062 | Soft Dice: 0.5939 | Path: separate_binary_training_results\best_spinous_model.pth
+[spinous] Epoch 034/100 | Train Loss: 0.2680 | Val Soft Dice: 0.6053 | Val Binary Dice (0.3): 0.6196 | Time: 0m 33s
+Saved best spinous model | Epoch: 34 | Binary Dice (0.3): 0.6196 | Soft Dice: 0.6053 | Path: separate_binary_training_results\best_spinous_model.pth
+[spinous] Epoch 035/100 | Train Loss: 0.2453 | Val Soft Dice: 0.6225 | Val Binary Dice (0.3): 0.6319 | Time: 0m 33s
+Saved best spinous model | Epoch: 35 | Binary Dice (0.3): 0.6319 | Soft Dice: 0.6225 | Path: separate_binary_training_results\best_spinous_model.pth
+[spinous] Epoch 036/100 | Train Loss: 0.2357 | Val Soft Dice: 0.6048 | Val Binary Dice (0.3): 0.6118 | Time: 0m 33s
+[spinous] Epoch 037/100 | Train Loss: 0.2345 | Val Soft Dice: 0.5752 | Val Binary Dice (0.3): 0.5869 | Time: 0m 33s
+[spinous] Epoch 038/100 | Train Loss: 0.2345 | Val Soft Dice: 0.5943 | Val Binary Dice (0.3): 0.6027 | Time: 0m 33s
+[spinous] Epoch 039/100 | Train Loss: 0.2481 | Val Soft Dice: 0.5992 | Val Binary Dice (0.3): 0.6074 | Time: 0m 34s
+[spinous] Epoch 040/100 | Train Loss: 0.2371 | Val Soft Dice: 0.6027 | Val Binary Dice (0.3): 0.6117 | Time: 0m 33s
+[spinous] Epoch 041/100 | Train Loss: 0.2344 | Val Soft Dice: 0.6077 | Val Binary Dice (0.3): 0.6160 | Time: 0m 33s
+[spinous] Epoch 042/100 | Train Loss: 0.2218 | Val Soft Dice: 0.6033 | Val Binary Dice (0.3): 0.6138 | Time: 0m 33s
+[spinous] Epoch 043/100 | Train Loss: 0.2170 | Val Soft Dice: 0.6019 | Val Binary Dice (0.3): 0.6124 | Time: 0m 34s
+[spinous] Epoch 044/100 | Train Loss: 0.2136 | Val Soft Dice: 0.6060 | Val Binary Dice (0.3): 0.6163 | Time: 0m 33s
+[spinous] Epoch 045/100 | Train Loss: 0.2193 | Val Soft Dice: 0.5889 | Val Binary Dice (0.3): 0.5964 | Time: 0m 33s
+[spinous] Epoch 046/100 | Train Loss: 0.2111 | Val Soft Dice: 0.5965 | Val Binary Dice (0.3): 0.6053 | Time: 0m 33s
+[spinous] Epoch 047/100 | Train Loss: 0.2190 | Val Soft Dice: 0.5801 | Val Binary Dice (0.3): 0.5855 | Time: 0m 32s
+[spinous] Epoch 048/100 | Train Loss: 0.2083 | Val Soft Dice: 0.6072 | Val Binary Dice (0.3): 0.6135 | Time: 0m 33s
+[spinous] Epoch 049/100 | Train Loss: 0.2191 | Val Soft Dice: 0.6071 | Val Binary Dice (0.3): 0.6126 | Time: 0m 34s
+[spinous] Epoch 050/100 | Train Loss: 0.1987 | Val Soft Dice: 0.6104 | Val Binary Dice (0.3): 0.6168 | Time: 0m 35s
+[spinous] Epoch 051/100 | Train Loss: 0.1997 | Val Soft Dice: 0.6104 | Val Binary Dice (0.3): 0.6156 | Time: 0m 34s
+[spinous] Epoch 052/100 | Train Loss: 0.1907 | Val Soft Dice: 0.6029 | Val Binary Dice (0.3): 0.6089 | Time: 0m 34s
+[spinous] Epoch 053/100 | Train Loss: 0.1987 | Val Soft Dice: 0.6123 | Val Binary Dice (0.3): 0.6187 | Time: 0m 34s
+[spinous] Epoch 054/100 | Train Loss: 0.1897 | Val Soft Dice: 0.6231 | Val Binary Dice (0.3): 0.6269 | Time: 0m 34s
+[spinous] Epoch 055/100 | Train Loss: 0.1836 | Val Soft Dice: 0.6245 | Val Binary Dice (0.3): 0.6305 | Time: 0m 33s
+[spinous] Epoch 056/100 | Train Loss: 0.1805 | Val Soft Dice: 0.6289 | Val Binary Dice (0.3): 0.6363 | Time: 0m 34s
+Saved best spinous model | Epoch: 56 | Binary Dice (0.3): 0.6363 | Soft Dice: 0.6289 | Path: separate_binary_training_results\best_spinous_model.pth
+[spinous] Epoch 057/100 | Train Loss: 0.1863 | Val Soft Dice: 0.6288 | Val Binary Dice (0.3): 0.6329 | Time: 0m 32s
+[spinous] Epoch 058/100 | Train Loss: 0.1848 | Val Soft Dice: 0.6278 | Val Binary Dice (0.3): 0.6303 | Time: 0m 34s
+[spinous] Epoch 059/100 | Train Loss: 0.1839 | Val Soft Dice: 0.6135 | Val Binary Dice (0.3): 0.6150 | Time: 0m 34s
+[spinous] Epoch 060/100 | Train Loss: 0.1773 | Val Soft Dice: 0.5914 | Val Binary Dice (0.3): 0.5940 | Time: 0m 34s
+[spinous] Epoch 061/100 | Train Loss: 0.1773 | Val Soft Dice: 0.6186 | Val Binary Dice (0.3): 0.6219 | Time: 0m 35s
+[spinous] Epoch 062/100 | Train Loss: 0.1863 | Val Soft Dice: 0.6234 | Val Binary Dice (0.3): 0.6289 | Time: 0m 35s
+[spinous] Epoch 063/100 | Train Loss: 0.1828 | Val Soft Dice: 0.6146 | Val Binary Dice (0.3): 0.6189 | Time: 0m 34s
+[spinous] Epoch 064/100 | Train Loss: 0.1825 | Val Soft Dice: 0.6139 | Val Binary Dice (0.3): 0.6172 | Time: 0m 34s
+[spinous] Epoch 065/100 | Train Loss: 0.1773 | Val Soft Dice: 0.6178 | Val Binary Dice (0.3): 0.6212 | Time: 0m 34s
+[spinous] Epoch 066/100 | Train Loss: 0.1792 | Val Soft Dice: 0.6131 | Val Binary Dice (0.3): 0.6162 | Time: 0m 34s
+[spinous] Epoch 067/100 | Train Loss: 0.1752 | Val Soft Dice: 0.6134 | Val Binary Dice (0.3): 0.6169 | Time: 0m 34s
+[spinous] Epoch 068/100 | Train Loss: 0.1724 | Val Soft Dice: 0.5973 | Val Binary Dice (0.3): 0.6017 | Time: 0m 34s
+[spinous] Epoch 069/100 | Train Loss: 0.1728 | Val Soft Dice: 0.6202 | Val Binary Dice (0.3): 0.6237 | Time: 0m 34s
+[spinous] Epoch 070/100 | Train Loss: 0.1829 | Val Soft Dice: 0.6166 | Val Binary Dice (0.3): 0.6174 | Time: 0m 35s
+[spinous] Epoch 071/100 | Train Loss: 0.1793 | Val Soft Dice: 0.6164 | Val Binary Dice (0.3): 0.6216 | Time: 0m 33s
+[spinous] Epoch 072/100 | Train Loss: 0.1724 | Val Soft Dice: 0.6277 | Val Binary Dice (0.3): 0.6314 | Time: 0m 34s
+[spinous] Epoch 073/100 | Train Loss: 0.1659 | Val Soft Dice: 0.6271 | Val Binary Dice (0.3): 0.6294 | Time: 0m 35s
+[spinous] Epoch 074/100 | Train Loss: 0.1711 | Val Soft Dice: 0.6262 | Val Binary Dice (0.3): 0.6303 | Time: 0m 34s
+[spinous] Epoch 075/100 | Train Loss: 0.1565 | Val Soft Dice: 0.6258 | Val Binary Dice (0.3): 0.6279 | Time: 0m 33s
+[spinous] Epoch 076/100 | Train Loss: 0.1559 | Val Soft Dice: 0.6064 | Val Binary Dice (0.3): 0.6108 | Time: 0m 34s
+[spinous] Epoch 077/100 | Train Loss: 0.1633 | Val Soft Dice: 0.6129 | Val Binary Dice (0.3): 0.6191 | Time: 0m 34s
+[spinous] Epoch 078/100 | Train Loss: 0.1571 | Val Soft Dice: 0.6025 | Val Binary Dice (0.3): 0.6079 | Time: 0m 35s
+[spinous] Epoch 079/100 | Train Loss: 0.1654 | Val Soft Dice: 0.6095 | Val Binary Dice (0.3): 0.6124 | Time: 0m 34s
+[spinous] Epoch 080/100 | Train Loss: 0.1632 | Val Soft Dice: 0.6027 | Val Binary Dice (0.3): 0.6063 | Time: 0m 35s
+[spinous] Epoch 081/100 | Train Loss: 0.1556 | Val Soft Dice: 0.6324 | Val Binary Dice (0.3): 0.6343 | Time: 0m 35s
+[spinous] Epoch 082/100 | Train Loss: 0.1604 | Val Soft Dice: 0.6048 | Val Binary Dice (0.3): 0.6071 | Time: 0m 33s
+[spinous] Epoch 083/100 | Train Loss: 0.1542 | Val Soft Dice: 0.6133 | Val Binary Dice (0.3): 0.6170 | Time: 0m 33s
+[spinous] Epoch 084/100 | Train Loss: 0.1568 | Val Soft Dice: 0.6092 | Val Binary Dice (0.3): 0.6116 | Time: 0m 35s
+[spinous] Epoch 085/100 | Train Loss: 0.1477 | Val Soft Dice: 0.6175 | Val Binary Dice (0.3): 0.6220 | Time: 0m 34s
+[spinous] Epoch 086/100 | Train Loss: 0.1470 | Val Soft Dice: 0.6276 | Val Binary Dice (0.3): 0.6308 | Time: 0m 34s
+Early stopping for spinous at epoch 86
+
+----------------------------------------------------------------------
+FINISHED TRAINING: SPINOUS
+Best epoch: 56
+Best validation binary Dice (0.3): 0.6363
+Soft Dice at best checkpoint: 0.6289
+Total epochs completed: 86
+Total training time: 49m 12s
+Saved model: C:\Users\Keith Chin\Radiography Project\backend\tests\separate_binary_training_results\best_spinous_model.pth
+----------------------------------------------------------------------
+
+======================================================================
+TRAINING: COSTO (Mask value: 192, Threshold: 0.5)
+======================================================================
+[costo] Epoch 001/100 | Train Loss: 1.7520 | Val Soft Dice: 0.0156 | Val Binary Dice (0.5): 0.0885 | Time: 0m 34s
+Saved best costo model | Epoch: 1 | Binary Dice (0.5): 0.0885 | Soft Dice: 0.0156 | Path: separate_binary_training_results\best_costo_model.pth
+[costo] Epoch 002/100 | Train Loss: 1.4547 | Val Soft Dice: 0.0206 | Val Binary Dice (0.5): 0.3215 | Time: 0m 32s
+Saved best costo model | Epoch: 2 | Binary Dice (0.5): 0.3215 | Soft Dice: 0.0206 | Path: separate_binary_training_results\best_costo_model.pth
+[costo] Epoch 003/100 | Train Loss: 1.2981 | Val Soft Dice: 0.0305 | Val Binary Dice (0.5): 0.3867 | Time: 0m 34s
+Saved best costo model | Epoch: 3 | Binary Dice (0.5): 0.3867 | Soft Dice: 0.0305 | Path: separate_binary_training_results\best_costo_model.pth
+[costo] Epoch 004/100 | Train Loss: 1.2086 | Val Soft Dice: 0.0357 | Val Binary Dice (0.5): 0.4459 | Time: 0m 33s
+Saved best costo model | Epoch: 4 | Binary Dice (0.5): 0.4459 | Soft Dice: 0.0357 | Path: separate_binary_training_results\best_costo_model.pth
+[costo] Epoch 005/100 | Train Loss: 1.1388 | Val Soft Dice: 0.0470 | Val Binary Dice (0.5): 0.4672 | Time: 0m 35s
+Saved best costo model | Epoch: 5 | Binary Dice (0.5): 0.4672 | Soft Dice: 0.0470 | Path: separate_binary_training_results\best_costo_model.pth
+[costo] Epoch 006/100 | Train Loss: 1.0823 | Val Soft Dice: 0.0533 | Val Binary Dice (0.5): 0.5280 | Time: 0m 34s
+Saved best costo model | Epoch: 6 | Binary Dice (0.5): 0.5280 | Soft Dice: 0.0533 | Path: separate_binary_training_results\best_costo_model.pth
+[costo] Epoch 007/100 | Train Loss: 1.0305 | Val Soft Dice: 0.0696 | Val Binary Dice (0.5): 0.4977 | Time: 0m 34s
+[costo] Epoch 008/100 | Train Loss: 0.9676 | Val Soft Dice: 0.0821 | Val Binary Dice (0.5): 0.4900 | Time: 0m 34s
+[costo] Epoch 009/100 | Train Loss: 0.9001 | Val Soft Dice: 0.1088 | Val Binary Dice (0.5): 0.5771 | Time: 0m 35s
+Saved best costo model | Epoch: 9 | Binary Dice (0.5): 0.5771 | Soft Dice: 0.1088 | Path: separate_binary_training_results\best_costo_model.pth
+[costo] Epoch 010/100 | Train Loss: 0.8272 | Val Soft Dice: 0.1465 | Val Binary Dice (0.5): 0.5556 | Time: 0m 35s
+[costo] Epoch 011/100 | Train Loss: 0.7442 | Val Soft Dice: 0.1852 | Val Binary Dice (0.5): 0.4935 | Time: 0m 35s
+[costo] Epoch 012/100 | Train Loss: 0.6737 | Val Soft Dice: 0.2247 | Val Binary Dice (0.5): 0.4917 | Time: 0m 34s
+[costo] Epoch 013/100 | Train Loss: 0.5843 | Val Soft Dice: 0.2730 | Val Binary Dice (0.5): 0.4889 | Time: 0m 34s
+[costo] Epoch 014/100 | Train Loss: 0.5080 | Val Soft Dice: 0.3499 | Val Binary Dice (0.5): 0.5668 | Time: 0m 35s
+[costo] Epoch 015/100 | Train Loss: 0.4588 | Val Soft Dice: 0.4060 | Val Binary Dice (0.5): 0.5269 | Time: 0m 33s
+[costo] Epoch 016/100 | Train Loss: 0.4153 | Val Soft Dice: 0.4291 | Val Binary Dice (0.5): 0.5468 | Time: 0m 36s
+[costo] Epoch 017/100 | Train Loss: 0.3834 | Val Soft Dice: 0.4491 | Val Binary Dice (0.5): 0.5823 | Time: 0m 35s
+Saved best costo model | Epoch: 17 | Binary Dice (0.5): 0.5823 | Soft Dice: 0.4491 | Path: separate_binary_training_results\best_costo_model.pth
+[costo] Epoch 018/100 | Train Loss: 0.3625 | Val Soft Dice: 0.4702 | Val Binary Dice (0.5): 0.5402 | Time: 0m 34s
+[costo] Epoch 019/100 | Train Loss: 0.3475 | Val Soft Dice: 0.4898 | Val Binary Dice (0.5): 0.6016 | Time: 0m 34s
+Saved best costo model | Epoch: 19 | Binary Dice (0.5): 0.6016 | Soft Dice: 0.4898 | Path: separate_binary_training_results\best_costo_model.pth
+[costo] Epoch 020/100 | Train Loss: 0.3229 | Val Soft Dice: 0.4766 | Val Binary Dice (0.5): 0.5239 | Time: 0m 34s
+[costo] Epoch 021/100 | Train Loss: 0.3180 | Val Soft Dice: 0.5444 | Val Binary Dice (0.5): 0.5930 | Time: 0m 35s
+[costo] Epoch 022/100 | Train Loss: 0.3000 | Val Soft Dice: 0.5373 | Val Binary Dice (0.5): 0.6272 | Time: 0m 34s
+Saved best costo model | Epoch: 22 | Binary Dice (0.5): 0.6272 | Soft Dice: 0.5373 | Path: separate_binary_training_results\best_costo_model.pth
+[costo] Epoch 023/100 | Train Loss: 0.2838 | Val Soft Dice: 0.5297 | Val Binary Dice (0.5): 0.6128 | Time: 0m 34s
+[costo] Epoch 024/100 | Train Loss: 0.2832 | Val Soft Dice: 0.5285 | Val Binary Dice (0.5): 0.6123 | Time: 0m 34s
+[costo] Epoch 025/100 | Train Loss: 0.2802 | Val Soft Dice: 0.5428 | Val Binary Dice (0.5): 0.6216 | Time: 0m 33s
+[costo] Epoch 026/100 | Train Loss: 0.2628 | Val Soft Dice: 0.5524 | Val Binary Dice (0.5): 0.6271 | Time: 0m 34s
+[costo] Epoch 027/100 | Train Loss: 0.2754 | Val Soft Dice: 0.5645 | Val Binary Dice (0.5): 0.5865 | Time: 0m 33s
+[costo] Epoch 028/100 | Train Loss: 0.2741 | Val Soft Dice: 0.5364 | Val Binary Dice (0.5): 0.6085 | Time: 0m 34s
+[costo] Epoch 029/100 | Train Loss: 0.2510 | Val Soft Dice: 0.4919 | Val Binary Dice (0.5): 0.5598 | Time: 0m 33s
+[costo] Epoch 030/100 | Train Loss: 0.2561 | Val Soft Dice: 0.5380 | Val Binary Dice (0.5): 0.6059 | Time: 0m 34s
+[costo] Epoch 031/100 | Train Loss: 0.2510 | Val Soft Dice: 0.5704 | Val Binary Dice (0.5): 0.6370 | Time: 0m 35s
+Saved best costo model | Epoch: 31 | Binary Dice (0.5): 0.6370 | Soft Dice: 0.5704 | Path: separate_binary_training_results\best_costo_model.pth
+[costo] Epoch 032/100 | Train Loss: 0.2456 | Val Soft Dice: 0.5436 | Val Binary Dice (0.5): 0.6094 | Time: 0m 34s
+[costo] Epoch 033/100 | Train Loss: 0.2321 | Val Soft Dice: 0.5456 | Val Binary Dice (0.5): 0.6080 | Time: 0m 34s
+[costo] Epoch 034/100 | Train Loss: 0.2366 | Val Soft Dice: 0.5627 | Val Binary Dice (0.5): 0.6248 | Time: 0m 33s
+[costo] Epoch 035/100 | Train Loss: 0.2386 | Val Soft Dice: 0.5383 | Val Binary Dice (0.5): 0.5496 | Time: 0m 34s
+[costo] Epoch 036/100 | Train Loss: 0.2401 | Val Soft Dice: 0.5570 | Val Binary Dice (0.5): 0.5674 | Time: 0m 35s
+[costo] Epoch 037/100 | Train Loss: 0.2319 | Val Soft Dice: 0.5391 | Val Binary Dice (0.5): 0.5979 | Time: 0m 33s
+[costo] Epoch 038/100 | Train Loss: 0.2260 | Val Soft Dice: 0.5757 | Val Binary Dice (0.5): 0.5850 | Time: 0m 33s
+[costo] Epoch 039/100 | Train Loss: 0.2161 | Val Soft Dice: 0.5710 | Val Binary Dice (0.5): 0.6297 | Time: 0m 35s
+[costo] Epoch 040/100 | Train Loss: 0.2254 | Val Soft Dice: 0.5938 | Val Binary Dice (0.5): 0.6053 | Time: 0m 34s
+[costo] Epoch 041/100 | Train Loss: 0.2308 | Val Soft Dice: 0.5555 | Val Binary Dice (0.5): 0.6135 | Time: 0m 33s
+[costo] Epoch 042/100 | Train Loss: 0.2179 | Val Soft Dice: 0.5437 | Val Binary Dice (0.5): 0.6004 | Time: 0m 34s
+[costo] Epoch 043/100 | Train Loss: 0.2143 | Val Soft Dice: 0.5691 | Val Binary Dice (0.5): 0.5763 | Time: 0m 35s
+[costo] Epoch 044/100 | Train Loss: 0.2195 | Val Soft Dice: 0.5239 | Val Binary Dice (0.5): 0.5311 | Time: 0m 34s
+[costo] Epoch 045/100 | Train Loss: 0.2128 | Val Soft Dice: 0.5301 | Val Binary Dice (0.5): 0.5861 | Time: 0m 32s
+[costo] Epoch 046/100 | Train Loss: 0.2068 | Val Soft Dice: 0.5466 | Val Binary Dice (0.5): 0.6030 | Time: 0m 31s
+[costo] Epoch 047/100 | Train Loss: 0.2088 | Val Soft Dice: 0.5748 | Val Binary Dice (0.5): 0.6307 | Time: 0m 32s
+[costo] Epoch 048/100 | Train Loss: 0.2444 | Val Soft Dice: 0.5649 | Val Binary Dice (0.5): 0.5704 | Time: 0m 32s
+[costo] Epoch 049/100 | Train Loss: 0.2330 | Val Soft Dice: 0.5595 | Val Binary Dice (0.5): 0.5647 | Time: 0m 34s
+[costo] Epoch 050/100 | Train Loss: 0.2172 | Val Soft Dice: 0.5585 | Val Binary Dice (0.5): 0.5632 | Time: 0m 33s
+[costo] Epoch 051/100 | Train Loss: 0.2200 | Val Soft Dice: 0.5621 | Val Binary Dice (0.5): 0.5665 | Time: 0m 32s
+[costo] Epoch 052/100 | Train Loss: 0.2006 | Val Soft Dice: 0.5702 | Val Binary Dice (0.5): 0.6247 | Time: 0m 31s
+[costo] Epoch 053/100 | Train Loss: 0.1991 | Val Soft Dice: 0.5717 | Val Binary Dice (0.5): 0.5762 | Time: 0m 32s
+[costo] Epoch 054/100 | Train Loss: 0.1979 | Val Soft Dice: 0.5566 | Val Binary Dice (0.5): 0.5608 | Time: 0m 33s
+[costo] Epoch 055/100 | Train Loss: 0.2015 | Val Soft Dice: 0.5326 | Val Binary Dice (0.5): 0.5361 | Time: 0m 31s
+[costo] Epoch 056/100 | Train Loss: 0.2175 | Val Soft Dice: 0.5375 | Val Binary Dice (0.5): 0.5404 | Time: 0m 32s
+[costo] Epoch 057/100 | Train Loss: 0.2013 | Val Soft Dice: 0.5396 | Val Binary Dice (0.5): 0.5424 | Time: 0m 31s
+[costo] Epoch 058/100 | Train Loss: 0.1978 | Val Soft Dice: 0.5608 | Val Binary Dice (0.5): 0.5642 | Time: 0m 33s
+[costo] Epoch 059/100 | Train Loss: 0.1913 | Val Soft Dice: 0.5029 | Val Binary Dice (0.5): 0.5055 | Time: 0m 34s
+[costo] Epoch 060/100 | Train Loss: 0.1863 | Val Soft Dice: 0.5222 | Val Binary Dice (0.5): 0.5256 | Time: 0m 34s
+[costo] Epoch 061/100 | Train Loss: 0.1891 | Val Soft Dice: 0.5283 | Val Binary Dice (0.5): 0.5314 | Time: 0m 34s
+Early stopping for costo at epoch 61
+
+----------------------------------------------------------------------
+FINISHED TRAINING: COSTO
+Best epoch: 31
+Best validation binary Dice (0.5): 0.6370
+Soft Dice at best checkpoint: 0.5704
+Total epochs completed: 61
+Total training time: 34m 41s
+Saved model: C:\Users\Keith Chin\Radiography Project\backend\tests\separate_binary_training_results\best_costo_model.pth
+----------------------------------------------------------------------
+
+======================================================================
+TRAINING: BLUNTED (Mask value: 64, Threshold: 0.5)
+======================================================================
+[blunted] Epoch 001/100 | Train Loss: 2.1943 | Val Soft Dice: 0.0030 | Val Binary Dice (0.5): 0.0001 | Time: 0m 34s
+Saved best blunted model | Epoch: 1 | Binary Dice (0.5): 0.0001 | Soft Dice: 0.0030 | Path: separate_binary_training_results\best_blunted_model.pth
+[blunted] Epoch 002/100 | Train Loss: 1.6792 | Val Soft Dice: 0.0029 | Val Binary Dice (0.5): 0.0000 | Time: 0m 34s
+[blunted] Epoch 003/100 | Train Loss: 1.4963 | Val Soft Dice: 0.0028 | Val Binary Dice (0.5): 0.6000 | Time: 0m 35s
+Saved best blunted model | Epoch: 3 | Binary Dice (0.5): 0.6000 | Soft Dice: 0.0028 | Path: separate_binary_training_results\best_blunted_model.pth
+[blunted] Epoch 004/100 | Train Loss: 1.3781 | Val Soft Dice: 0.0028 | Val Binary Dice (0.5): 0.7000 | Time: 0m 35s
+Saved best blunted model | Epoch: 4 | Binary Dice (0.5): 0.7000 | Soft Dice: 0.0028 | Path: separate_binary_training_results\best_blunted_model.pth
+[blunted] Epoch 005/100 | Train Loss: 1.2947 | Val Soft Dice: 0.0026 | Val Binary Dice (0.5): 0.7000 | Time: 0m 35s
+[blunted] Epoch 006/100 | Train Loss: 1.2321 | Val Soft Dice: 0.0026 | Val Binary Dice (0.5): 0.7000 | Time: 0m 31s
+[blunted] Epoch 007/100 | Train Loss: 1.1823 | Val Soft Dice: 0.0026 | Val Binary Dice (0.5): 0.7000 | Time: 0m 30s
+[blunted] Epoch 008/100 | Train Loss: 1.1469 | Val Soft Dice: 0.0025 | Val Binary Dice (0.5): 0.7000 | Time: 0m 30s
+[blunted] Epoch 009/100 | Train Loss: 1.1203 | Val Soft Dice: 0.0035 | Val Binary Dice (0.5): 0.7000 | Time: 0m 30s
+[blunted] Epoch 010/100 | Train Loss: 1.0999 | Val Soft Dice: 0.0034 | Val Binary Dice (0.5): 0.7000 | Time: 0m 30s
+[blunted] Epoch 011/100 | Train Loss: 1.0842 | Val Soft Dice: 0.0042 | Val Binary Dice (0.5): 0.7000 | Time: 0m 30s
+[blunted] Epoch 012/100 | Train Loss: 1.0713 | Val Soft Dice: 0.0030 | Val Binary Dice (0.5): 0.7000 | Time: 0m 30s
+[blunted] Epoch 013/100 | Train Loss: 1.0621 | Val Soft Dice: 0.0020 | Val Binary Dice (0.5): 0.7000 | Time: 0m 30s
+[blunted] Epoch 014/100 | Train Loss: 1.0561 | Val Soft Dice: 0.0028 | Val Binary Dice (0.5): 0.7000 | Time: 0m 30s
+[blunted] Epoch 015/100 | Train Loss: 1.0489 | Val Soft Dice: 0.0063 | Val Binary Dice (0.5): 0.7000 | Time: 0m 30s
+[blunted] Epoch 016/100 | Train Loss: 1.0423 | Val Soft Dice: 0.0036 | Val Binary Dice (0.5): 0.7000 | Time: 0m 31s
+[blunted] Epoch 017/100 | Train Loss: 1.0394 | Val Soft Dice: 0.0049 | Val Binary Dice (0.5): 0.7000 | Time: 0m 30s
+[blunted] Epoch 018/100 | Train Loss: 1.0334 | Val Soft Dice: 0.0018 | Val Binary Dice (0.5): 0.7000 | Time: 0m 30s
+[blunted] Epoch 019/100 | Train Loss: 1.0304 | Val Soft Dice: 0.0205 | Val Binary Dice (0.5): 0.7000 | Time: 0m 31s
+[blunted] Epoch 020/100 | Train Loss: 1.0315 | Val Soft Dice: 0.0023 | Val Binary Dice (0.5): 0.7000 | Time: 0m 34s
+[blunted] Epoch 021/100 | Train Loss: 1.0246 | Val Soft Dice: 0.0040 | Val Binary Dice (0.5): 0.7000 | Time: 0m 33s
+[blunted] Epoch 022/100 | Train Loss: 1.0225 | Val Soft Dice: 0.0013 | Val Binary Dice (0.5): 0.7000 | Time: 0m 34s
+[blunted] Epoch 023/100 | Train Loss: 1.0237 | Val Soft Dice: 0.0014 | Val Binary Dice (0.5): 0.7000 | Time: 0m 36s
+[blunted] Epoch 024/100 | Train Loss: 1.0206 | Val Soft Dice: 0.0026 | Val Binary Dice (0.5): 0.7000 | Time: 0m 37s
+[blunted] Epoch 025/100 | Train Loss: 1.0218 | Val Soft Dice: 0.0038 | Val Binary Dice (0.5): 0.7000 | Time: 0m 34s
+[blunted] Epoch 026/100 | Train Loss: 1.0165 | Val Soft Dice: 0.0218 | Val Binary Dice (0.5): 0.7000 | Time: 0m 34s
+[blunted] Epoch 027/100 | Train Loss: 1.0140 | Val Soft Dice: 0.0010 | Val Binary Dice (0.5): 0.7000 | Time: 0m 34s
+[blunted] Epoch 028/100 | Train Loss: 1.0086 | Val Soft Dice: 0.0012 | Val Binary Dice (0.5): 0.7000 | Time: 0m 33s
+[blunted] Epoch 029/100 | Train Loss: 1.0144 | Val Soft Dice: 0.0231 | Val Binary Dice (0.5): 0.7000 | Time: 0m 34s
+[blunted] Epoch 030/100 | Train Loss: 1.0119 | Val Soft Dice: 0.0194 | Val Binary Dice (0.5): 0.7000 | Time: 0m 33s
+[blunted] Epoch 031/100 | Train Loss: 1.0116 | Val Soft Dice: 0.0074 | Val Binary Dice (0.5): 0.7000 | Time: 0m 35s
+[blunted] Epoch 032/100 | Train Loss: 1.0027 | Val Soft Dice: 0.0012 | Val Binary Dice (0.5): 0.7000 | Time: 0m 34s
+[blunted] Epoch 033/100 | Train Loss: 1.0073 | Val Soft Dice: 0.0164 | Val Binary Dice (0.5): 0.7000 | Time: 0m 34s
+[blunted] Epoch 034/100 | Train Loss: 1.0129 | Val Soft Dice: 0.0012 | Val Binary Dice (0.5): 0.7000 | Time: 0m 33s
+Early stopping for blunted at epoch 34
+
+----------------------------------------------------------------------
+FINISHED TRAINING: BLUNTED
+Best epoch: 4
+Best validation binary Dice (0.5): 0.7000
+Soft Dice at best checkpoint: 0.0028
+Total epochs completed: 34
+Total training time: 18m 46s
+Saved model: C:\Users\Keith Chin\Radiography Project\backend\tests\separate_binary_training_results\best_blunted_model.pth
+----------------------------------------------------------------------
+
+======================================================================
+FINAL TRAINING SUMMARY
+======================================================================
+SPINOUS    | Best Epoch: 056 | Threshold: 0.30 | Best Binary Dice: 0.6363 | Soft Dice at checkpoint: 0.6289 | Saved: separate_binary_training_results\best_spinous_model.pth
+COSTO      | Best Epoch: 031 | Threshold: 0.50 | Best Binary Dice: 0.6370 | Soft Dice at checkpoint: 0.5704 | Saved: separate_binary_training_results\best_costo_model.pth
+BLUNTED    | Best Epoch: 004 | Threshold: 0.50 | Best Binary Dice: 0.7000 | Soft Dice at checkpoint: 0.0028 | Saved: separate_binary_training_results\best_blunted_model.pth
+
+Total training time: 1h 42m 41s
+Training completed: 2026-10-17 16:30:17
+Training log saved to: C:\Users\Keith Chin\Radiography Project\backend\tests\separate_binary_training_results\training_log_20261017_144736_742736.txt
+======================================================================

@@ -1,0 +1,162 @@
+=== RAW ===
+PACEMAN TECHNICAL EVALUATION – CHEST RADIOGRAPH (Image 6)
+
+POSITION
+
+Rotation
+No significant rotation is identified. The medial clavicles are approximately equidistant from the spinous processes and the lung fields are reasonably symmetrical.
+
+Shoulder Position / Tension
+Shoulders are not fully depressed/rolled forward. Clavicles are slightly elevated and scapular clearance is not optimal.
+
+Tilt
+No significant tilt is seen. The clavicles are broadly symmetrical in vertical height and the spinous processes remain near midline.
+
+Lordotic or Kyphotic Positioning
+A mild lordotic tendency is present with slightly elevated clavicles relative to the apices.
+
+Inspiration
+Inspiration is adequate, with approximately 9–10 posterior ribs visible and the diaphragms lying at an acceptable level.
+
+Scapulae Positioning
+Scapular overlap is slightly more apparent than ideal, reducing perfect clearing of the upper lateral lungs.
+
+AREA COVERAGE
+Lung apices and both costophrenic angles are included. Lateral lung margins are visualised and anatomical coverage is essentially complete.
+
+CENTERING
+
+Mid-Sagittal Plane Alignment
+Patient is generally centred, though a slight lateral shift cannot be excluded.
+
+Central Ray Position
+Beam appears centred near T7/inferior angle of scapula. No practical centering correction is required.
+
+COLLIMATION
+Collimation is acceptable but not perfectly optimal. Borders are mostly included, though the field is slightly more open than necessary. Dose/scatter implication is limited but could be further optimised with tighter restriction.
+
+EXPOSURE
+
+Density
+Exposure appears appropriate.
+
+Quantum Mottling
+Quantum mottle is absent.
+
+Vertebral Body Visibility Through Cardiac Shadow
+Penetration is acceptable overall, though image density is not as cleanly balanced as the best examples.
+
+Lung Markings to Periphery
+Lung markings remain visible to the periphery.
+
+Exposure Index / Dose Index
+Exposure index / dose index is not visible on the provided image and is therefore unavailable.
+
+MARKER
+A side marker is present and placed outside the key thoracic anatomy without obscuring the lungs.
+
+ARTEFACTS
+
+Motion
+Cortical margins are sharp and no appreciable motion blur is identified.
+
+External Artefacts
+No significant external artefact projects over the lungs.
+
+Internal Artefacts
+No chest internal devices are identified.
+
+PATIENT IDENTIFICATION
+Patient name, identification number and accession number are not visible on the provided image. Any visible initials/letters should not be assumed to be patient identifiers.
+
+POSITIONING ERRORS
+Mild shoulder tension with slight lordotic appearance and minor scapular overlap. Severity is mild. Clinical impact is low to moderate but the image remains usable.
+
+PRACTICAL RADIOGRAPHER-LEVEL CORRECTIONS (SUMMARY)
+Encourage shoulder relaxation and roll the shoulders further forward. Reconfirm erect positioning and centre to T7 with tighter collimation.
+
+STRENGTHS AND WEAKNESSES
+Strengths
+Coverage and overall exposure remain acceptable.
+
+Weaknesses
+Mild lordotic tendency, less optimal shoulder positioning and slight scapular overlap.
+
+FINAL CONCLUSION
+Despite mild positioning limitations, the image remains clinically diagnostic and acceptable.
+
+=== TECHNICAL ===
+
+# POSITION
+## Rotation
+No significant rotation is identified. The medial clavicles are approximately equidistant from the spinous processes and the lung fields are reasonably symmetrical.
+## Shoulder Position / Tension
+Shoulders are not fully depressed/rolled forward. Clavicles are slightly elevated and scapular clearance is not optimal.
+## Tilt
+No significant tilt is seen. The clavicles are broadly symmetrical in vertical height and the spinous processes remain near midline.
+## Lordotic or Kyphotic Positioning
+A mild lordotic tendency is present with slightly elevated clavicles relative to the apices.
+## Inspiration
+Inspiration is adequate, with approximately 9–10 posterior ribs visible and the diaphragms lying at an acceptable level.
+## Scapulae Positioning
+Scapular overlap is slightly more apparent than ideal, reducing perfect clearing of the upper lateral lungs.
+
+# AREA COVERAGE
+## Coverage Assessment
+Lung apices and both costophrenic angles are included. Lateral lung margins are visualised and anatomical coverage is essentially complete.
+
+# CENTERING
+## Mid-Sagittal Plane Alignment
+Patient is generally centred, though a slight lateral shift cannot be excluded.
+## Central Ray Position
+Beam appears centred near T7/inferior angle of scapula. No practical centering correction is required.
+
+# COLLIMATION
+## Field Restriction
+Collimation is acceptable but not perfectly optimal. Borders are mostly included, though the field is slightly more open than necessary. Dose/scatter implication is limited but could be further optimised with tighter restriction.
+
+# EXPOSURE
+## Density
+Exposure appears appropriate.
+## Quantum Mottling
+Quantum mottle is absent.
+## Vertebral Body Visibility Through Cardiac Shadow
+Penetration is acceptable overall, though image density is not as cleanly balanced as the best examples.
+## Lung Markings to Periphery
+Lung markings remain visible to the periphery.
+## Exposure Index / Dose Index
+Exposure index / dose index is not visible on the provided image and is therefore unavailable.
+
+# MARKER
+## Marker Assessment
+A side marker is present and placed outside the key thoracic anatomy without obscuring the lungs.
+
+# ARTEFACTS
+## Motion
+Cortical margins are sharp and no appreciable motion blur is identified.
+## External Artefacts
+No significant external artefact projects over the lungs.
+## Internal Artefacts
+No chest internal devices are identified.
+
+# PATIENT IDENTIFICATION
+## Identification Assessment
+Patient name, identification number and accession number are not visible on the provided image. Any visible initials/letters should not be assumed to be patient identifiers.
+
+# POSITIONING ERRORS
+## Error Summary
+Mild shoulder tension with slight lordotic appearance and minor scapular overlap. Severity is mild. Clinical impact is low to moderate but the image remains usable.
+
+# PRACTICAL CORRECTIONS
+## Recommendations
+Encourage shoulder relaxation and roll the shoulders further forward. Reconfirm erect positioning and centre to T7 with tighter collimation.
+
+# STRENGTHS AND WEAKNESSES
+## Strengths
+Coverage and overall exposure remain acceptable.
+## Weaknesses
+Mild lordotic tendency, less optimal shoulder positioning and slight scapular overlap.
+
+# FINAL CONCLUSION
+## Overall Assessment
+Despite mild positioning limitations, the image remains clinically diagnostic and acceptable.

@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+python-multipart
+
+torch
+torchvision
+segmentation-models-pytorch
+torchxrayvision
+
+opencv-python
+numpy
+pillow
+scikit-image
+
+tqdm
+imageio

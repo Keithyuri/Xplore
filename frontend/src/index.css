@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@layer base {
+  :root {
+    --background: 228 30% 8%;
+    --foreground: 220 20% 92%;
+
+    --card: 228 28% 12%;
+    --card-foreground: 220 20% 92%;
+
+    --popover: 228 28% 12%;
+    --popover-foreground: 220 20% 92%;
+
+    --primary: 270 60% 58%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 228 25% 18%;
+    --secondary-foreground: 220 20% 85%;
+
+    --muted: 228 22% 16%;
+    --muted-foreground: 220 15% 55%;
+
+    --accent: 330 70% 55%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 72% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 228 20% 20%;
+    --input: 228 20% 20%;
+    --ring: 270 60% 58%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 228 30% 10%;
+    --sidebar-foreground: 220 20% 85%;
+    --sidebar-primary: 270 60% 58%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 228 25% 18%;
+    --sidebar-accent-foreground: 220 20% 85%;
+    --sidebar-border: 228 20% 20%;
+    --sidebar-ring: 270 60% 58%;
+
+    /* Custom tokens */
+    --surface: 228 28% 14%;
+    --surface-hover: 228 25% 18%;
+    --glow-primary: 270 60% 58%;
+    --glow-accent: 330 70% 55%;
+    --severity-mild: 142 60% 45%;
+    --severity-moderate: 45 90% 55%;
+    --severity-severe: 0 72% 55%;
+    --toggle-active: 290 65% 55%;
+    --toggle-track: 228 22% 25%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Inter', sans-serif;
+  }
+  code, pre {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+@layer utilities {
+  .glow-primary {
+    box-shadow: 0 0 20px -4px hsl(var(--glow-primary) / 0.3);
+  }
+  .glow-accent {
+    box-shadow: 0 0 20px -4px hsl(var(--glow-accent) / 0.3);
+  }
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: hsl(var(--muted)) transparent;
+  }
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background-color: hsl(var(--muted));
+    border-radius: 3px;
+  }
+}
